@@ -2,16 +2,19 @@
 //  SpendWiseApp.swift
 //  SpendWise
 //
-//  Created by jojo on 22/05/2026.
+//  Created by jojo on 29/05/2026.
 //
-//
-//import SwiftUI
-//
-//@main
-//struct SpendWiseApp: App {
-//    var body: some Scene {
-//        WindowGroup {
-//            ContentView()
-//        }
-//    }
-//}
+
+import SwiftUI
+
+@main
+struct SpendWiseApp: App {
+
+    var body: some Scene {
+
+        WindowGroup {
+
+            AppRouter()
+        }
+    }
+}
